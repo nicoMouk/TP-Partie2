@@ -1,5 +1,10 @@
-<!DOCTYPE html>
+<?php
+session_start();
 
+$_SESSION['arcticle'] = 42;
+?>
+
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
